@@ -1,13 +1,13 @@
-/*===== GOOGLE FONTS =====*/
+/*===== Google Fonts =====*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+/*===== Variáveis CSS =====*/
 :root{
     --header-height: 3rem;
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== Cores =====*/
 :root{
     --first-color: #5361FF;
     --white-color: #FAFAFF;
@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fonte & Tipografia =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margens =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -40,12 +40,12 @@
     --mb-4: 2rem;
 }
 
-/*===== z index =====*/
+/*===== Z Index =====*/
 :root{
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/*===== Base =====*/
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -78,7 +78,7 @@ img{
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+/*===== Classe CSS ===== */
 .section{
     padding: 3rem 0;
 }
@@ -101,7 +101,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== LAYOUT =====*/
+/*===== Layout =====*/
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -120,7 +120,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== NAV =====*/
+/*===== Nav =====*/
 .nav{
     height: var(--header-height);
     display: flex;
