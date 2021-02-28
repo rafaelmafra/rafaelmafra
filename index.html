@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' rel='stylesheet'>
 
         <link rel="shortcut icon" type href="assets/img/favicon.ico">
@@ -16,7 +15,11 @@
         <title>Rafael Mafra</title>
 
         <!-- COOKIES -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#fafaff","text":"#2a3b47","border":"#fafaff"},"button":{"background":"#5361ff","text":"#fafaff"}},"position":"bottom","corners":"small","margin":"small","transparency":"10","content":{"href":"https://rafaelmafra.github.io/cookies.html","message":"Este site utiliza cookies para garantir uma melhor experiência.","button":"Aceitar","link":"Saiba mais."}})});</script>
+        <!-- 
+        <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+        <script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script>
+        <script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#fafaff","text":"#2a3b47","border":"#fafaff"},"button":{"background":"#5361ff","text":"#fafaff"}},"position":"bottom","corners":"small","margin":"small","transparency":"10","content":{"href":"https://rafaelmafra.github.io/cookies.html","message":"Este site utiliza cookies para garantir uma melhor experiência.","button":"Aceitar","link":"Saiba mais."}})});</script>
+        -->
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -174,13 +177,13 @@
                         <span class="contact__text">Estrada do Arraial 3491, Apt 904<br>Tamarineira, Recife - PE<br>52051-380</span>
                     </div>
 
-                    <form action="https://formspree.io/rafael.mfr83@gmail.com" class="contact__form" method="POST">
+                    <form action="https://formspree.io/f/xleovdbo" class="contact__form" method="POST">
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Nome" class="contact__input">
-                            <input type="mail" placeholder="E-mail" class="contact__input">
+                            <input type="text" name="name" placeholder="Nome" class="contact__input">
+                            <input type="mail" name="_replyto"placeholder="E-mail" class="contact__input">
                         </div>
 
-                        <textarea name="" id="" cols="0" rows="10" placeholder="Escreva sua mensagem aqui" class="contact__input"></textarea>
+                        <textarea name="message"cols="0" rows="10" placeholder="Escreva sua mensagem aqui" class="contact__input"></textarea>
 
                         <input type="submit" value="Enviar" class="contact__button">
                     </form>
