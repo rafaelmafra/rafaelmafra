@@ -141,7 +141,7 @@ img{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(0,7,102,.3);
+        background-color: rgba(0,7,102,.6);
         transition: .5s;
         backdrop-filter: blur(10px);
     }
